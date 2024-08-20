@@ -50,4 +50,9 @@ class PostController extends Controller
         $post->delete();
         return redirect('/posts');
     }
+
+    public function show(Post $post)
+    {
+        return view('posts.show', compact('post'));
+    }
 }
