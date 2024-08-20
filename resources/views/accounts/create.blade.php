@@ -1,4 +1,4 @@
-// resources/views/accounts/create.blade.php
+
 @extends('layouts.app')
 
 @section('title', 'Buat Akun Baru')
